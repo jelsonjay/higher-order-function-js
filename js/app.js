@@ -26,7 +26,7 @@ myCars.forEach(favCar);
 function favCar(p) {
 	document.querySelector(
 		'#app'
-	).innerHTML = `All are good, but I love ${p} is very cool car!`;
+	).innerHTML = `All cars are good, but I love ${p} is very cool car!`;
 
 	console.log(p);
 }
