@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 #app {
     margin: auto;
-    width: 750;
+    justify-content: center;
+    width: 500px;
+    padding: 20px;
+    height: 500px;
     background: chocolate;
     border-radius: 10px;
 }
