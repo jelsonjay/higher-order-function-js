@@ -23,9 +23,10 @@ let myCars = ['Audi', 'Mercedes Bens', 'Ferrari'];
 // forEach is a higher order function of javascript languge itself
 myCars.forEach(favCar);
 
-function favCar(car) {
-	document.getElementById('app').innerHTML =
-		'All are a good car ' + car + ' very cool!';
+function favCar(p) {
+	document.querySelector(
+		'#app'
+	).innerHTML = `All are good, but I love ${p} is very cool car!`;
 
-	console.log(car);
+	console.log(p);
 }
