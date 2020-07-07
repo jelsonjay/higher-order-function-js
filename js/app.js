@@ -16,8 +16,6 @@ let functionSix = multplerFunction(5);
 
 //document.querySelector('#app').innerHTML = functionTwo(10);
 
-//Higher order function, javascript itself
-
 let myCars = ['Audi', 'Mercedes Bens', 'Ferrari'];
 
 // forEach is a higher order function of javascript languge itself
