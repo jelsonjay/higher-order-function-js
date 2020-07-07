@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    margin: auto;
+    width: 750;
+    background: chocolate;
+    border-radius: 10px;
+}
