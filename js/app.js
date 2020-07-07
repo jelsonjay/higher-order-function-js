@@ -7,11 +7,13 @@ function multplerFunction(multpler) {
 }
 
 //
-let functionOne = multplerFunction(2);
-let functionTwo = multplerFunction(3);
+let functionOne = multplerFunction(25);
+let functionTwo = multplerFunction(53);
 let functionThree = multplerFunction(4);
 let functionFour = multplerFunction(5);
 let functionFive = multplerFunction(4);
 let functionSix = multplerFunction(5);
 
-document.querySelector('#app').innerHTML = functionTwo(2);
+//document.querySelector('#app').innerHTML = functionTwo(10);
+
+//Higher order function, javascript itself
